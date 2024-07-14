@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD36A9522BD9B87300AE2ADA /* KitchenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A9512BD9B87300AE2ADA /* KitchenPage.swift */; };
+		CD36A98A2BD9BC6C00AE2ADA /* LivingRoomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A9892BD9BC6C00AE2ADA /* LivingRoomPage.swift */; };
+		CD36A98C2BD9BD2F00AE2ADA /* BedRoomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A98B2BD9BD2F00AE2ADA /* BedRoomPage.swift */; };
+		CD36A98E2BD9BD9300AE2ADA /* DataPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A98D2BD9BD9300AE2ADA /* DataPage.swift */; };
+		CD36A9902BD9BE1500AE2ADA /* StatusPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A98F2BD9BE1500AE2ADA /* StatusPage.swift */; };
+		CD36A9922BD9BE5F00AE2ADA /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A9912BD9BE5F00AE2ADA /* SettingsPage.swift */; };
+		CD36A9942BD9BE9800AE2ADA /* AdvancedSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A9932BD9BE9800AE2ADA /* AdvancedSettingsPage.swift */; };
+		CD36A9962BD9BED600AE2ADA /* RequestSupportPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36A9952BD9BED600AE2ADA /* RequestSupportPage.swift */; };
+		CD36AACD2BDB06CE00AE2ADA /* DomainGesture in Frameworks */ = {isa = PBXBuildFile; productRef = CD36AACC2BDB06CE00AE2ADA /* DomainGesture */; };
+		CD6648892C0770B900F9CADA /* SwiftNFC in Frameworks */ = {isa = PBXBuildFile; productRef = CD6648882C0770B900F9CADA /* SwiftNFC */; };
+		CD66488B2C07717900F9CADA /* NFC_Read_WriteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66488A2C07717900F9CADA /* NFC_Read_WriteApp.swift */; };
+		CDBDA4942B9F410C001C9F74 /* Demo_AirgeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDA4932B9F410C001C9F74 /* Demo_AirgeekApp.swift */; };
+		CDBDA4962B9F410C001C9F74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDA4952B9F410C001C9F74 /* ContentView.swift */; };
+		CDBDA4982B9F410E001C9F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBDA4972B9F410E001C9F74 /* Assets.xcassets */; };
+		CDBDA49B2B9F410E001C9F74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBDA49A2B9F410E001C9F74 /* Preview Assets.xcassets */; };
+		CDBDA4A52B9F410E001C9F74 /* Demo_AirgeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDA4A42B9F410E001C9F74 /* Demo_AirgeekTests.swift */; };
+		CDBDA4AF2B9F410E001C9F74 /* Demo_AirgeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDA4AE2B9F410E001C9F74 /* Demo_AirgeekUITests.swift */; };
+		CDBDA4B12B9F410E001C9F74 /* Demo_AirgeekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDA4B02B9F410E001C9F74 /* Demo_AirgeekUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDBDA4A12B9F410E001C9F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBDA4882B9F410C001C9F74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBDA48F2B9F410C001C9F74;
+			remoteInfo = "Demo Airgeek";
+		};
+		CDBDA4AB2B9F410E001C9F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBDA4882B9F410C001C9F74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBDA48F2B9F410C001C9F74;
+			remoteInfo = "Demo Airgeek";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD36A9512BD9B87300AE2ADA /* KitchenPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenPage.swift; sourceTree = "<group>"; };
+		CD36A9892BD9BC6C00AE2ADA /* LivingRoomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomPage.swift; sourceTree = "<group>"; };
+		CD36A98B2BD9BD2F00AE2ADA /* BedRoomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedRoomPage.swift; sourceTree = "<group>"; };
+		CD36A98D2BD9BD9300AE2ADA /* DataPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPage.swift; sourceTree = "<group>"; };
+		CD36A98F2BD9BE1500AE2ADA /* StatusPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPage.swift; sourceTree = "<group>"; };
+		CD36A9912BD9BE5F00AE2ADA /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		CD36A9932BD9BE9800AE2ADA /* AdvancedSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettingsPage.swift; sourceTree = "<group>"; };
+		CD36A9952BD9BED600AE2ADA /* RequestSupportPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSupportPage.swift; sourceTree = "<group>"; };
+		CD6648822C076BAD00F9CADA /* Demo Airgeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Demo Airgeek.entitlements"; sourceTree = "<group>"; };
+		CD66488A2C07717900F9CADA /* NFC_Read_WriteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFC_Read_WriteApp.swift; sourceTree = "<group>"; };
+		CD66488E2C0775F200F9CADA /* Demo-Airgeek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Demo-Airgeek-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CDBDA4902B9F410C001C9F74 /* Demo Airgeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Airgeek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBDA4932B9F410C001C9F74 /* Demo_AirgeekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_AirgeekApp.swift; sourceTree = "<group>"; };
+		CDBDA4952B9F410C001C9F74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDBDA4972B9F410E001C9F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBDA49A2B9F410E001C9F74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDBDA4A02B9F410E001C9F74 /* Demo AirgeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo AirgeekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBDA4A42B9F410E001C9F74 /* Demo_AirgeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_AirgeekTests.swift; sourceTree = "<group>"; };
+		CDBDA4AA2B9F410E001C9F74 /* Demo AirgeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo AirgeekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBDA4AE2B9F410E001C9F74 /* Demo_AirgeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_AirgeekUITests.swift; sourceTree = "<group>"; };
+		CDBDA4B02B9F410E001C9F74 /* Demo_AirgeekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_AirgeekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBDA48D2B9F410C001C9F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6648892C0770B900F9CADA /* SwiftNFC in Frameworks */,
+				CD36AACD2BDB06CE00AE2ADA /* DomainGesture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA49D2B9F410E001C9F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA4A72B9F410E001C9F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD36AACB2BDB06CE00AE2ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDBDA4872B9F410C001C9F74 = {
+			isa = PBXGroup;
+			children = (
+				CDBDA4922B9F410C001C9F74 /* Demo Airgeek */,
+				CDBDA4A32B9F410E001C9F74 /* Demo AirgeekTests */,
+				CDBDA4AD2B9F410E001C9F74 /* Demo AirgeekUITests */,
+				CDBDA4912B9F410C001C9F74 /* Products */,
+				CD36AACB2BDB06CE00AE2ADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBDA4912B9F410C001C9F74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDA4902B9F410C001C9F74 /* Demo Airgeek.app */,
+				CDBDA4A02B9F410E001C9F74 /* Demo AirgeekTests.xctest */,
+				CDBDA4AA2B9F410E001C9F74 /* Demo AirgeekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBDA4922B9F410C001C9F74 /* Demo Airgeek */ = {
+			isa = PBXGroup;
+			children = (
+				CD66488E2C0775F200F9CADA /* Demo-Airgeek-Info.plist */,
+				CD6648822C076BAD00F9CADA /* Demo Airgeek.entitlements */,
+				CDBDA4932B9F410C001C9F74 /* Demo_AirgeekApp.swift */,
+				CDBDA4952B9F410C001C9F74 /* ContentView.swift */,
+				CD36A9512BD9B87300AE2ADA /* KitchenPage.swift */,
+				CD36A9892BD9BC6C00AE2ADA /* LivingRoomPage.swift */,
+				CD36A98B2BD9BD2F00AE2ADA /* BedRoomPage.swift */,
+				CD36A98D2BD9BD9300AE2ADA /* DataPage.swift */,
+				CD36A9912BD9BE5F00AE2ADA /* SettingsPage.swift */,
+				CD36A98F2BD9BE1500AE2ADA /* StatusPage.swift */,
+				CD36A9932BD9BE9800AE2ADA /* AdvancedSettingsPage.swift */,
+				CDBDA4972B9F410E001C9F74 /* Assets.xcassets */,
+				CDBDA4992B9F410E001C9F74 /* Preview Content */,
+				CD36A9952BD9BED600AE2ADA /* RequestSupportPage.swift */,
+				CD66488A2C07717900F9CADA /* NFC_Read_WriteApp.swift */,
+			);
+			path = "Demo Airgeek";
+			sourceTree = "<group>";
+		};
+		CDBDA4992B9F410E001C9F74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDA49A2B9F410E001C9F74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDBDA4A32B9F410E001C9F74 /* Demo AirgeekTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDA4A42B9F410E001C9F74 /* Demo_AirgeekTests.swift */,
+			);
+			path = "Demo AirgeekTests";
+			sourceTree = "<group>";
+		};
+		CDBDA4AD2B9F410E001C9F74 /* Demo AirgeekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDA4AE2B9F410E001C9F74 /* Demo_AirgeekUITests.swift */,
+				CDBDA4B02B9F410E001C9F74 /* Demo_AirgeekUITestsLaunchTests.swift */,
+			);
+			path = "Demo AirgeekUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBDA48F2B9F410C001C9F74 /* Demo Airgeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBDA4B42B9F410E001C9F74 /* Build configuration list for PBXNativeTarget "Demo Airgeek" */;
+			buildPhases = (
+				CDBDA48C2B9F410C001C9F74 /* Sources */,
+				CDBDA48D2B9F410C001C9F74 /* Frameworks */,
+				CDBDA48E2B9F410C001C9F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo Airgeek";
+			packageProductDependencies = (
+				CD36AACC2BDB06CE00AE2ADA /* DomainGesture */,
+				CD6648882C0770B900F9CADA /* SwiftNFC */,
+			);
+			productName = "Demo Airgeek";
+			productReference = CDBDA4902B9F410C001C9F74 /* Demo Airgeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDBDA49F2B9F410E001C9F74 /* Demo AirgeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBDA4B72B9F410E001C9F74 /* Build configuration list for PBXNativeTarget "Demo AirgeekTests" */;
+			buildPhases = (
+				CDBDA49C2B9F410E001C9F74 /* Sources */,
+				CDBDA49D2B9F410E001C9F74 /* Frameworks */,
+				CDBDA49E2B9F410E001C9F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBDA4A22B9F410E001C9F74 /* PBXTargetDependency */,
+			);
+			name = "Demo AirgeekTests";
+			productName = "Demo AirgeekTests";
+			productReference = CDBDA4A02B9F410E001C9F74 /* Demo AirgeekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDBDA4A92B9F410E001C9F74 /* Demo AirgeekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBDA4BA2B9F410E001C9F74 /* Build configuration list for PBXNativeTarget "Demo AirgeekUITests" */;
+			buildPhases = (
+				CDBDA4A62B9F410E001C9F74 /* Sources */,
+				CDBDA4A72B9F410E001C9F74 /* Frameworks */,
+				CDBDA4A82B9F410E001C9F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBDA4AC2B9F410E001C9F74 /* PBXTargetDependency */,
+			);
+			name = "Demo AirgeekUITests";
+			productName = "Demo AirgeekUITests";
+			productReference = CDBDA4AA2B9F410E001C9F74 /* Demo AirgeekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBDA4882B9F410C001C9F74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CDBDA48F2B9F410C001C9F74 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CDBDA49F2B9F410E001C9F74 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CDBDA48F2B9F410C001C9F74;
+					};
+					CDBDA4A92B9F410E001C9F74 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CDBDA48F2B9F410C001C9F74;
+					};
+				};
+			};
+			buildConfigurationList = CDBDA48B2B9F410C001C9F74 /* Build configuration list for PBXProject "Demo Airgeek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDBDA4872B9F410C001C9F74;
+			packageReferences = (
+				CD36AACA2BDB06A600AE2ADA /* XCRemoteSwiftPackageReference "domain-gesture" */,
+				CD6648872C0770A900F9CADA /* XCRemoteSwiftPackageReference "SwiftNFC" */,
+			);
+			productRefGroup = CDBDA4912B9F410C001C9F74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBDA48F2B9F410C001C9F74 /* Demo Airgeek */,
+				CDBDA49F2B9F410E001C9F74 /* Demo AirgeekTests */,
+				CDBDA4A92B9F410E001C9F74 /* Demo AirgeekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBDA48E2B9F410C001C9F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBDA49B2B9F410E001C9F74 /* Preview Assets.xcassets in Resources */,
+				CDBDA4982B9F410E001C9F74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA49E2B9F410E001C9F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA4A82B9F410E001C9F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBDA48C2B9F410C001C9F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD36A9522BD9B87300AE2ADA /* KitchenPage.swift in Sources */,
+				CD36A9942BD9BE9800AE2ADA /* AdvancedSettingsPage.swift in Sources */,
+				CDBDA4962B9F410C001C9F74 /* ContentView.swift in Sources */,
+				CD36A98A2BD9BC6C00AE2ADA /* LivingRoomPage.swift in Sources */,
+				CD36A9962BD9BED600AE2ADA /* RequestSupportPage.swift in Sources */,
+				CD36A9922BD9BE5F00AE2ADA /* SettingsPage.swift in Sources */,
+				CDBDA4942B9F410C001C9F74 /* Demo_AirgeekApp.swift in Sources */,
+				CD36A98E2BD9BD9300AE2ADA /* DataPage.swift in Sources */,
+				CD36A9902BD9BE1500AE2ADA /* StatusPage.swift in Sources */,
+				CD36A98C2BD9BD2F00AE2ADA /* BedRoomPage.swift in Sources */,
+				CD66488B2C07717900F9CADA /* NFC_Read_WriteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA49C2B9F410E001C9F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBDA4A52B9F410E001C9F74 /* Demo_AirgeekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA4A62B9F410E001C9F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBDA4B12B9F410E001C9F74 /* Demo_AirgeekUITestsLaunchTests.swift in Sources */,
+				CDBDA4AF2B9F410E001C9F74 /* Demo_AirgeekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDBDA4A22B9F410E001C9F74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBDA48F2B9F410C001C9F74 /* Demo Airgeek */;
+			targetProxy = CDBDA4A12B9F410E001C9F74 /* PBXContainerItemProxy */;
+		};
+		CDBDA4AC2B9F410E001C9F74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBDA48F2B9F410C001C9F74 /* Demo Airgeek */;
+			targetProxy = CDBDA4AB2B9F410E001C9F74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDBDA4B22B9F410E001C9F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDBDA4B32B9F410E001C9F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBDA4B52B9F410E001C9F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo Airgeek/Demo Airgeek.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Demo Airgeek/Preview Content\"";
+				DEVELOPMENT_TEAM = MNYC9YC2KP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo-Airgeek-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0x2A.Demo-Airgeek.Demo-Airgeek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDBDA4B62B9F410E001C9F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo Airgeek/Demo Airgeek.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Demo Airgeek/Preview Content\"";
+				DEVELOPMENT_TEAM = MNYC9YC2KP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo-Airgeek-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0x2A.Demo-Airgeek.Demo-Airgeek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDBDA4B82B9F410E001C9F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0x2A.Demo-Airgeek.Demo-AirgeekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Airgeek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Demo Airgeek";
+			};
+			name = Debug;
+		};
+		CDBDA4B92B9F410E001C9F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0x2A.Demo-Airgeek.Demo-AirgeekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Airgeek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Demo Airgeek";
+			};
+			name = Release;
+		};
+		CDBDA4BB2B9F410E001C9F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0x2A.Demo-Airgeek.Demo-AirgeekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Demo Airgeek";
+			};
+			name = Debug;
+		};
+		CDBDA4BC2B9F410E001C9F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0x2A.Demo-Airgeek.Demo-AirgeekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Demo Airgeek";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBDA48B2B9F410C001C9F74 /* Build configuration list for PBXProject "Demo Airgeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBDA4B22B9F410E001C9F74 /* Debug */,
+				CDBDA4B32B9F410E001C9F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBDA4B42B9F410E001C9F74 /* Build configuration list for PBXNativeTarget "Demo Airgeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBDA4B52B9F410E001C9F74 /* Debug */,
+				CDBDA4B62B9F410E001C9F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBDA4B72B9F410E001C9F74 /* Build configuration list for PBXNativeTarget "Demo AirgeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBDA4B82B9F410E001C9F74 /* Debug */,
+				CDBDA4B92B9F410E001C9F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBDA4BA2B9F410E001C9F74 /* Build configuration list for PBXNativeTarget "Demo AirgeekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBDA4BB2B9F410E001C9F74 /* Debug */,
+				CDBDA4BC2B9F410E001C9F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD36AACA2BDB06A600AE2ADA /* XCRemoteSwiftPackageReference "domain-gesture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/levitatingpineapple/domain-gesture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		CD6648872C0770A900F9CADA /* XCRemoteSwiftPackageReference "SwiftNFC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1998code/SwiftNFC";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD36AACC2BDB06CE00AE2ADA /* DomainGesture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD36AACA2BDB06A600AE2ADA /* XCRemoteSwiftPackageReference "domain-gesture" */;
+			productName = DomainGesture;
+		};
+		CD6648882C0770B900F9CADA /* SwiftNFC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD6648872C0770A900F9CADA /* XCRemoteSwiftPackageReference "SwiftNFC" */;
+			productName = SwiftNFC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDBDA4882B9F410C001C9F74 /* Project object */;
+}

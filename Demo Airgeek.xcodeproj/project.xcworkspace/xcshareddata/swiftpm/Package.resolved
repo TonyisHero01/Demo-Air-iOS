@@ -1,0 +1,24 @@
+{
+  "originHash" : "f6f15a81591c41f2aa36bf781dcb7a65a45de01b4e98daf1247e85cf9f437a61",
+  "pins" : [
+    {
+      "identity" : "domain-gesture",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/levitatingpineapple/domain-gesture",
+      "state" : {
+        "revision" : "1b90b4559c9464eaf8683efe526bcaa0ccc0a62f",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "swiftnfc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1998code/SwiftNFC",
+      "state" : {
+        "revision" : "f39f346476a05655b34e4c1e9669c8342e6cc86d",
+        "version" : "1.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}
